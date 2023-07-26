@@ -17,4 +17,9 @@ function calculate(num1, num2, operator) {
             return 'Invalid operator';
     }
 }
-console.log(calculate(10, 5, '+'));  
+console.log(calculate(10, 5, '+'));
+console.log(calculate(10, 5, '-'));
+console.log(calculate(10, 5, '*'));
+console.log(calculate(10, 5, '/'));
+console.log(calculate(10, 0, '/'));
+console.log(calculate(10, 5, '%'));   
